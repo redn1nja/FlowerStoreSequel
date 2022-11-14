@@ -7,7 +7,7 @@ import lombok.Setter;
 
 @NoArgsConstructor
 @AllArgsConstructor
-@Setter
+@Setter @ToString
 public class Flower {
     @Getter
     private double sepalLength;

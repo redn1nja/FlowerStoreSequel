@@ -7,6 +7,7 @@ import lombok.Setter;
 import java.util.ArrayList;
 import java.util.List;
 
+@ToString
 public class FlowerBucket {
     @Getter @Setter
     private List<FlowerPack> packs = new ArrayList<>();
